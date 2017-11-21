@@ -157,9 +157,9 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
-		2DA18A781FC40C380046FE64 /* PBXContainerItemProxy */ = {
+		2DA18AFF1FC4A98E0046FE64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1EEEF6A9D30E4507B44A823F /* RNOpacityGradient.xcodeproj */;
+			containerPortal = 2DA18AFB1FC4A98E0046FE64 /* RNOpacityGradient.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNOpacityGradient;
@@ -309,8 +309,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = fadetext/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = fadetext/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		1EEEF6A9D30E4507B44A823F /* RNOpacityGradient.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNOpacityGradient.xcodeproj; path = "../node_modules/react-native-opacity-gradient-view/ios/RNOpacityGradient.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* fadetext-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fadetext-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DA18AFB1FC4A98E0046FE64 /* RNOpacityGradient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNOpacityGradient.xcodeproj; path = ../../../ios/RNOpacityGradient.xcodeproj; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6BAD3DB1070A45CA981ABB0D /* libRNOpacityGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNOpacityGradient.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -463,10 +463,10 @@
 			name = "Recovered References";
 			sourceTree = "<group>";
 		};
-		2DA18A751FC40C380046FE64 /* Products */ = {
+		2DA18AFC1FC4A98E0046FE64 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DA18A791FC40C380046FE64 /* libRNOpacityGradient.a */,
+				2DA18B001FC4A98E0046FE64 /* libRNOpacityGradient.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -492,6 +492,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				2DA18AFB1FC4A98E0046FE64 /* RNOpacityGradient.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -504,7 +505,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				1EEEF6A9D30E4507B44A823F /* RNOpacityGradient.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -664,8 +664,8 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
-					ProductGroup = 2DA18A751FC40C380046FE64 /* Products */;
-					ProjectRef = 1EEEF6A9D30E4507B44A823F /* RNOpacityGradient.xcodeproj */;
+					ProductGroup = 2DA18AFC1FC4A98E0046FE64 /* Products */;
+					ProjectRef = 2DA18AFB1FC4A98E0046FE64 /* RNOpacityGradient.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -796,11 +796,11 @@
 			remoteRef = 2DA18A731FC40C380046FE64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2DA18A791FC40C380046FE64 /* libRNOpacityGradient.a */ = {
+		2DA18B001FC4A98E0046FE64 /* libRNOpacityGradient.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libRNOpacityGradient.a;
-			remoteRef = 2DA18A781FC40C380046FE64 /* PBXContainerItemProxy */;
+			remoteRef = 2DA18AFF1FC4A98E0046FE64 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {

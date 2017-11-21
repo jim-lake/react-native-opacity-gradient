@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-opacity-gradient",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A <OpacityGradient> element for react-native",
   "main": "index.js",
   "keywords": [
@@ -13,6 +13,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jim-lake/react-native-opacity-gradient-view.git"
+    "url": "git@github.com:jim-lake/react-native-opacity-gradient.git"
   }
 }
