@@ -1,0 +1,5 @@
+rootProject.name = 'fadetext'
+include ':react-native-opacity-gradient-view'
+project(':react-native-opacity-gradient-view').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-opacity-gradient-view/android')
+
+include ':app'
