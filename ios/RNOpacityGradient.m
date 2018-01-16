@@ -31,14 +31,14 @@
   _gradientLayer.colors = colors;
 }
 
-- (void)setStart:(CGPoint)start
+- (void)setStartPoint:(CGPoint)startPoint
 {
-  _gradientLayer.startPoint = start;
+  _gradientLayer.startPoint = startPoint;
 }
 
-- (void)setEnd:(CGPoint)end
+- (void)setEndPoint:(CGPoint)endPoint
 {
-  _gradientLayer.endPoint = end;
+  _gradientLayer.endPoint = endPoint;
 }
 
 - (void)setLocations:(NSArray *)locations

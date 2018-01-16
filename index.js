@@ -18,8 +18,8 @@ export default function OpacityGradientView(props) {
       {...other}
       colors={colors.map(processColor)}
       locations={locations}
-      start={convertPoint(start)}
-      end={convertPoint(end)}
+      startPoint={convertPoint(start)}
+      endPoint={convertPoint(end)}
     />
   );
 }
