@@ -1,5 +1,5 @@
 
-package com.reactlibrary;
+package com.jimlake.opacitygradient;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;

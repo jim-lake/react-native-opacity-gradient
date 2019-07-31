@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-opacity-gradient",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A <OpacityGradient> element for react-native",
   "main": "index.js",
   "keywords": [

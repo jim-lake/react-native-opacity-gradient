@@ -1,4 +1,3 @@
-'use strict';
 
 import React from 'react';
 import ReactNative from 'react-native';
@@ -6,22 +5,34 @@ import ReactNative from 'react-native';
 const {
   requireNativeComponent,
   processColor,
+  Platform,
+  View,
 } = ReactNative;
 
-const RNOpacityGradient = requireNativeComponent('RNOpacityGradient',null);
+let RNOpacityGradient = null;
+if (Platform.OS === 'ios') {
+  RNOpacityGradient = requireNativeComponent('RNOpacityGradient',null);
+}
 
 export default function OpacityGradientView(props) {
   const { colors, locations, start, end, ...other } = props;
 
-  return (
-    <RNOpacityGradient
-      {...other}
-      colors={colors.map(processColor)}
-      locations={locations}
-      startPoint={convertPoint(start)}
-      endPoint={convertPoint(end)}
-    />
-  );
+  let content;
+  if (RNOpacityGradient) {
+    content = (
+      <RNOpacityGradient
+        {...other}
+        colors={colors.map(processColor)}
+        locations={locations}
+        startPoint={convertPoint(start)}
+        endPoint={convertPoint(end)}
+      />
+    );
+  } else {
+    content = <View {...other} />;
+  }
+
+  return content;
 }
 
 function convertPoint(point) {
