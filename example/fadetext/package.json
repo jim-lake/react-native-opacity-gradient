@@ -6,7 +6,7 @@
 		"start": "node node_modules/react-native/local-cli/cli.js start"
 	},
 	"dependencies": {
-		"lodash": "3.x",
+		"lodash": "4.x",
 		"react": "16.0.0",
 		"react-native": "^0.52.0",
 		"react-native-opacity-gradient-view": "file:../.."
